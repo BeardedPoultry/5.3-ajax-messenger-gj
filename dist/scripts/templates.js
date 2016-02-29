@@ -1,7 +1,4 @@
 this["JST"] = this["JST"] || {};
-this["JST"]["application"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-    return "<h1>Hello</h1>\n";
-},"useData":true});
 this["JST"]["chat"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var helper;
 
@@ -28,4 +25,7 @@ this["JST"]["message"] = Handlebars.template({"1":function(depth0,helpers,partia
     var stack1;
 
   return ((stack1 = helpers.each.call(depth0,depth0,{"name":"each","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "");
+},"useData":true});
+this["JST"]["red"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+    return "<h3 class=\"redchat\">This should be red right now</h3>\n";
 },"useData":true});
