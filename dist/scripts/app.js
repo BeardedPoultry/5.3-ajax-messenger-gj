@@ -95,7 +95,7 @@ var _router2 = _interopRequireDefault(_router);
   
 });
 
-require.register("router", function(exports, require, module){
+require.register("views/chat", function(exports, require, module){
   "use strict";
   
 });
